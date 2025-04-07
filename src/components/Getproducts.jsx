@@ -86,7 +86,7 @@ const Getproducts = () => {
                                     {product.product_name}
                                 </h5>
                                 <p className='text-muted'>
-                                    {product.product_description}
+                                    {product.product_description.slice(0,40)}
                                 </p>
                                 <b className="text-warning">
                                     {product.product_cost}
